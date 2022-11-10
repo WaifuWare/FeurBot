@@ -1,4 +1,7 @@
 package xyz.someboringnerd.feurbot.modules.StaticBot;
 
-public class TPABot {
+import xyz.someboringnerd.feurbot.modules.Module;
+
+public class TPABot extends Module
+{
 }
