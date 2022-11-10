@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "feurbot",
+  "version": "${version}",
+  "name": "Feurbot",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/feurbot/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.someboringnerd.feurbot.client.FeurbotClient"
+    ],
+    "main": [
+      "xyz.someboringnerd.feurbot.Feurbot"
+    ]
+  },
+  "mixins": [
+    "feurbot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
