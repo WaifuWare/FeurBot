@@ -9,7 +9,7 @@ public class ModuleManager
 
     public ModuleManager()
     {
-        tpabot = new TPABot();
+        tpabot = new TPABot("tpabot", BOT_TYPE.TP_BOT);
     }
 
 }
