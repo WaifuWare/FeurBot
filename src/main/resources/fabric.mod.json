@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "id": "feurbot",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Feurbot",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Advanced Bot for anarchy servers",
+  "authors": ["SomeBoringNerd"],
+  "contact": {"Discord" : "SomeBoringNerd#5428"},
   "license": "MIT",
-  "icon": "assets/feurbot/icon.png",
+  "icon": "assets/feurbot/logo.png",
   "environment": "client",
   "entrypoints": {
     "client": [

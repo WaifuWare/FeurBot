@@ -4,6 +4,9 @@
   "package": "xyz.someboringnerd.feurbot.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ChatHudMixin",
+    "DisconnectScreenMixin",
+    "PlayerEntityMixin"
   ],
   "client": [
   ],
